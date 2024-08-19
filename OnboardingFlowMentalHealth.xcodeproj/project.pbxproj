@@ -11,6 +11,10 @@
 		6112A7EC2C73F4B100799F31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112A7EB2C73F4B100799F31 /* ContentView.swift */; };
 		6112A7EE2C73F4B300799F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6112A7ED2C73F4B300799F31 /* Assets.xcassets */; };
 		6112A7F12C73F4B300799F31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6112A7F02C73F4B300799F31 /* Preview Assets.xcassets */; };
+		6112A7F82C73F4E200799F31 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112A7F72C73F4E200799F31 /* WelcomePage.swift */; };
+		6112A7FA2C73FDEA00799F31 /* InformationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112A7F92C73FDEA00799F31 /* InformationPage.swift */; };
+		6112A7FC2C73FF7900799F31 /* OnboardingComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112A7FB2C73FF7900799F31 /* OnboardingComponent.swift */; };
+		6112A7FE2C74011200799F31 /* StartedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112A7FD2C74011200799F31 /* StartedPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		6112A7EB2C73F4B100799F31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6112A7ED2C73F4B300799F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6112A7F02C73F4B300799F31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6112A7F72C73F4E200799F31 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		6112A7F92C73FDEA00799F31 /* InformationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationPage.swift; sourceTree = "<group>"; };
+		6112A7FB2C73FF7900799F31 /* OnboardingComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingComponent.swift; sourceTree = "<group>"; };
+		6112A7FD2C74011200799F31 /* StartedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartedPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				6112A7E92C73F4B100799F31 /* OnboardingFlowMentalHealthApp.swift */,
 				6112A7EB2C73F4B100799F31 /* ContentView.swift */,
+				6112A7FD2C74011200799F31 /* StartedPage.swift */,
+				6112A7F72C73F4E200799F31 /* WelcomePage.swift */,
+				6112A7FB2C73FF7900799F31 /* OnboardingComponent.swift */,
+				6112A7F92C73FDEA00799F31 /* InformationPage.swift */,
 				6112A7ED2C73F4B300799F31 /* Assets.xcassets */,
 				6112A7EF2C73F4B300799F31 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6112A7F82C73F4E200799F31 /* WelcomePage.swift in Sources */,
 				6112A7EC2C73F4B100799F31 /* ContentView.swift in Sources */,
 				6112A7EA2C73F4B100799F31 /* OnboardingFlowMentalHealthApp.swift in Sources */,
+				6112A7FA2C73FDEA00799F31 /* InformationPage.swift in Sources */,
+				6112A7FE2C74011200799F31 /* StartedPage.swift in Sources */,
+				6112A7FC2C73FF7900799F31 /* OnboardingComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
